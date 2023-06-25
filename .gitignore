@@ -1,0 +1,7 @@
+.venv/
+.vscode/
+actividad_2/__pycache__/
+actividad_2/models/__pycache__/
+
+
+.env
