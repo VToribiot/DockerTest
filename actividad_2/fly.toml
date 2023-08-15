@@ -1,0 +1,14 @@
+# fly.toml app configuration file generated for victorsapi on 2023-06-25T22:22:15-04:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "victorsapi"
+primary_region = "mia"
+
+[http_service]
+  internal_port = 8001
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
